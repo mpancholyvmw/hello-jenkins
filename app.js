@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function(req,res)
 {
-res.send('hello jenkins vmw');
+res.send('hello world');
 });
 
 app.listen(process.env.PORT||5000);
