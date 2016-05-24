@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function(req,res)
 {
-res.send('hello DevOps Team');
+res.send('Hello PowerSchool Team');
 });
 
 app.listen(process.env.PORT||5000);
